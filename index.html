@@ -4,40 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Four-Grid Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <section>
-            <h1>
+    <main class="container">
+        <section class="main">
+            <h1 class="main__title">
                 Reliable, Efficient Delivery
             </h1>
-            <h1>
+            <h1 class="main__title main__title--bold">
                 Powered by Technology
             </h1>
-            <h4>
+            <h4 class="main__subtitle">
                 Our Artificial powered tools use millions of project data points to ensure that your project is successful
             </h4>
         </section>
-        <section>
-            <div><div>
-                <h3>Supervisor</h3>
-                <p>Monitoring activity to identify project roadblocks</p>
-                <figure>
-                    <img src="/four code images/icon-supervisor.svg" alt="There's an image here">
-                </figure>
-                </div></div>
-            <div><div>
-                <h3>Team Builder</h3>
-                <p>Scans our talent network to create the optimal team for your project</p>
-                <figure><img src="/four code images/icon-team-builder.svg" alt="An image on team building"></figure>
+        <section class="four-grid">
+           <div class="column column--cyan">
+                <h3 class="column__title">Supervisor</h3>
+                  <p class="column__text">Monitoring activity to identify project roadblocks</p>
+                   <figure class="column__image">
+                      <img src="/four code images/icon-supervisor.svg" alt="There's an image here" loading="lazy" width="50">
+                   </figure>
+               </div>
+
+          <div>  
+            <div class="column column--red">
+                <h3 class="column__title">Team Builder</h3>
+                    <p class="column__text">Scans our talent network to create the optimal team for your project</p>
+                    <figure class="column__image">
+                      <img src="/four code images/icon-team-builder.svg" alt="An image on team building" loading="lazy" width="50">
+                    </figure>
+                </div>
+
+            <div class="column column--yellow">
+                
+                  <h3 class="column__title">Karma</h3>
+                   <p class="column__text">
+                    Regularly evaluates our talent to ensure quality
+                   </p>
+                    <figure class="column__image">
+                       <img src="/four code images/icon-karma.svg" alt="An image of karma" loading="lazy" width="50">
+                    </figure>
+               
             </div>
-            <div><h3>Karma</h3>
-            <p>Regularly evaluates our talent to ensure quality</p>
-        <figure><img src="/four code images/icon-karma.svg" alt="An image of karma"></figure></div></div>
-            <div><div><h3>Calculator</h3>
-            <p>Uses data from past projects to provide better delivery estimates</p>
-        <figure><img src="/four code images/icon-calculator.svg" alt="An image of a Calculator"></figure></div></div>
+        </div>
+            <div class="column column--blue">
+                
+                    <h3 class="column__title">Calculator</h3>
+                    <p class="column__text">Uses data from past projects to provide better delivery estimates</p>
+                    <figure class="column__image">
+                        <img src="/four code images/icon-calculator.svg" alt="An image of a Calculator" loading="lazy" width="50">
+                    </figure>
+                
+            </div>
         </section>
     </main>
 </body>
